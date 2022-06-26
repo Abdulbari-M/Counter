@@ -1,0 +1,64 @@
+:root {
+    font-size: 16px;
+    background-color: silver;
+}
+
+main{
+    height: 100vh - 1;
+    max-width: auto;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    margin-top: 15%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#value {
+    font-size: 6rem;
+    font-weight: bolder;
+}
+
+.btn {
+    margin: 1rem;
+    height: 3.5rem;
+    width: auto;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 1.2rem;
+    
+    }
+
+.decrease {
+    background-color:turquoise;
+}
+.increase {
+    background-color:turquoise;
+}
+.reset {
+    background-color:turquoise;
+}
+
+.decrease:hover {
+    background-color: #222;
+    color: #fff
+}
+.increase:hover {
+    background-color: #222;
+    color: #fff
+}
+.reset:hover {
+    background-color: #222;
+    color: #fff
+}
+
+footer {
+    margin-top: 15rem;
+    text-align: center;
+}
